@@ -60,7 +60,13 @@
 }
 
 @media (max-width: 300px) {
-  .nav-container {
-    font-size: .8em;
+
+  .ul-cont {
+    font-size: .7em;
+  }
+
+  [data-dropdown] .dropdown-menu {
+    font-size: 1.2em;
+    width: 160px;
   }
 }
