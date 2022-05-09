@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import 'nav-bar.css';
+@import 'inicio.css';
+@import 'servico.css';
+@import 'contato.css';
+@import 'relato-clientes.css';
+@import 'footer.css';
+
+:root {
+  --cor0: #ffffff;
+  --cor1: #766f68;
+  --cor2: #d6000d;
+  --cor3: #d3d3d3;
+  --cor4: #000000;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}

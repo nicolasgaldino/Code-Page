@@ -1,0 +1,50 @@
+.servico-container {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.servico-container img {
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+}
+
+.servico-itens {
+  list-style: none;
+  font-size: 2.1em;
+  margin: 5px;
+  cursor: default;
+  font-weight: bold;
+}
+
+.servico-itens ion-icon {
+  margin-right: 2px;
+  text-align: center;
+  color: var(--cor2);
+  font-size: .9em;
+}
+
+/* Mobile */
+
+@media (max-width: 720px) {
+
+  .servico-container img {
+    margin: 0%;
+    margin-bottom: 15px;
+  }
+
+  .servico-itens {
+    font-size: 1.5em;
+  }
+
+}
+
+@media (max-width: 300px) {
+  .servico-container {
+    font-size: .8em;
+  }
+}
