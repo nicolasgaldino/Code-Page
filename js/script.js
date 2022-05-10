@@ -26,7 +26,6 @@ function initDrpodownMenu() {
   });
 
   function handleClick(event) {
-    event.preventDefault();
     this.classList.add('ativo');
     clickFora(this, ['touchstart', 'click'], () => {
       this.classList.remove('ativo');

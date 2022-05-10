@@ -1,0 +1,11 @@
+.main-page {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: var(--cor0);
+  background: url(../img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg) center center/cover;
+  background-color: var(--cor5);
+  background-blend-mode: color;
+}

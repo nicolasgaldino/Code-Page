@@ -7,6 +7,7 @@
 @import 'contato.css';
 @import 'relato-clientes.css';
 @import 'footer.css';
+@import 'empresa.css';
 
 :root {
   --cor0: #ffffff;
@@ -14,6 +15,7 @@
   --cor2: #d6000d;
   --cor3: #d3d3d3;
   --cor4: #000000;
+  --cor5: #12121250;
 }
 
 * {

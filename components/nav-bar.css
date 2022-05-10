@@ -62,7 +62,7 @@
 @media (max-width: 300px) {
 
   .ul-cont {
-    font-size: .7em;
+    font-size: .9em;
   }
 
   [data-dropdown] .dropdown-menu {
