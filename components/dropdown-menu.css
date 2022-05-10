@@ -62,3 +62,23 @@
   color: var(--cor0);
   font-size: .5em;
 }
+
+/* Mobile */
+
+@media (max-width: 720px) {
+  
+  .dropdown-menu {
+    width: 130px;
+    font-size: 1.4em;
+  }
+
+}
+
+@media (max-width: 360px) {
+
+  .dropdown-menu {
+    width: 110px;
+    font-size: 1.1em;
+  }
+
+}
