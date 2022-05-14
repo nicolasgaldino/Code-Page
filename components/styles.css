@@ -10,6 +10,7 @@
 @import 'login.css';
 @import 'orcamento.css';
 @import 'cadastro.css';
+@import 'servicoPag.css';
 
 :root {
   --cor0: #ffffff;
@@ -19,6 +20,7 @@
   --cor4: #000000;
   --cor5: #12121250;
   --cor6: #9194967a;
+  --cor7: #111C22;
 }
 
 * {
