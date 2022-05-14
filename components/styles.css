@@ -9,6 +9,7 @@
 @import 'footer.css';
 @import 'login.css';
 @import 'orcamento.css';
+@import 'cadastro.css';
 
 :root {
   --cor0: #ffffff;

@@ -1,0 +1,137 @@
+form {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: var(--cor0);
+  background: url(../img/chris-ried-LfG7RwMM6g8-unsplash.jpg) center center/cover;
+  background-color: var(--cor5);
+  background-blend-mode: color;
+}
+
+.todosForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
+  width: auto;
+  gap: 2em;
+}
+
+.todosForm p {
+  color: var(--cor0);
+  margin-bottom: -5px;
+}
+
+.formulario-user {
+  display: flex;
+  gap: 10px;
+  font-size: 1.3em;
+  flex-wrap: wrap;
+}
+
+.formulario-user input {
+  outline: none;
+  width: 300px;
+  text-align: center;
+  font-size: 0.9em;
+  padding: 5px 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulario-endereco {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  font-size: 1.3em;
+}
+
+.formulario-endereco input {
+  outline: none;
+  text-align: center;
+  font-size: 0.9em;
+  padding: 5px 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.btn {
+  margin-top: 1.0em;
+  text-transform: uppercase;
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-size: 1.0em;
+  letter-spacing: .1em;
+  padding: 10px;
+  border: 2px solid var(--cor0);
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--cor0);
+  background: var(--cor2);
+}
+
+.btn:hover {
+  color: var(--cor2);
+  background: var(--cor0);
+  border: 2px solid var(--cor2);
+  font-weight: bold;
+}
+
+/* Mobile */
+
+@media (max-width: 720px) {
+
+  .todosForm {
+    width: 365px;
+  }
+
+  .todosForm p {
+    font-size: 1.5em;
+  }
+
+  .formulario-user {
+    justify-content: center;
+  }
+
+  .formulario-endereco {
+    justify-content: center;
+  }
+
+  .btn {
+    font-size: .9em;
+  }
+
+}
+
+@media (max-width: 360px) {
+
+  .todosForm {
+    width: 275px;
+  }
+
+  .todosForm p {
+    font-size: 1.4em;
+  }
+
+  .formulario-user {
+    width: 210px;
+  }
+
+  .formulario-endereco {
+    width: 210px;
+  }
+
+  .btn {
+    font-size: .8em;
+  }
+
+}
