@@ -106,7 +106,7 @@
     const pesquisaCep = async() => {
       clearForm();
       const cep = document.getElementById('cep').value;
-      const urlCep = `http://viacep.com.br/ws/${cep}/json/`;
+      const urlCep = `https://viacep.com.br/ws/${cep}/json/`;
       //fetch(urlCep).then(response => response.json()).then(endereco);
       if(cepValido(cep)){
         const dados = await fetch(urlCep);
