@@ -60,6 +60,11 @@
     font-size: 1.3em;
     font-weight: bold;
   }
+
+  [data-dropdown] .dropdown-menu {
+    font-size: 1.3em;
+    width: 125px;
+  }
   
 }
 
@@ -70,8 +75,8 @@
   }
 
   [data-dropdown] .dropdown-menu {
-    font-size: 1.2em;
-    width: 160px;
+    font-size: .9em;
+    width: 85px;
   }
   
 }
