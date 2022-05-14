@@ -43,6 +43,10 @@
 /* Mobile */
 
 @media (max-width: 720px) {
+
+  .inicio-text {
+    text-align: center;
+  }
   
   .cliente-img {
     width: 570px;
@@ -58,6 +62,10 @@
 
   .cliente-img:last-child {
     border-top: 1px solid black;
+    margin-top: 10px;
+  }
+
+  .cliente p {
     margin-top: 10px;
   }
 

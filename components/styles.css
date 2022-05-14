@@ -8,6 +8,7 @@
 @import 'relato-clientes.css';
 @import 'footer.css';
 @import 'login.css';
+@import 'orcamento.css';
 
 :root {
   --cor0: #ffffff;

@@ -26,13 +26,17 @@
 }
 
 .inicio-text button {
-  color: var(--cor0);
   background: var(--cor2);
   padding: 10px 20px;
   font-size: 1.7em;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.inicio-text button a {
+  text-decoration: none;
+  color: var(--cor0);
 }
 
 /* Mobile */

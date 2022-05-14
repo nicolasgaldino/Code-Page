@@ -8,12 +8,16 @@
 .nav-container h1 {
   margin: 0 auto;
   font-size: 3.5em;
-  color: var(--cor2);
   cursor: default;
 }
 
 .nav-container span {
   color: var(--cor4);
+}
+
+.nav-container a {
+  color: var(--cor2);
+  text-decoration: none;
 }
 
 .ul-cont {

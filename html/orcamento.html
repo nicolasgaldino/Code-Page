@@ -26,34 +26,37 @@
     </ul>
   </nav>
   <!-- Nav -->
-  <!---->
-  <section class="login">
-    <div class="main-page">
-      <div class="login-container">
-        <h1>Codar<span>.</span></h1>
-        <div class="input">
-          <input type="text" name="login" class="email" placeholder="E-mail ou nome de usuário" required>
-          <input type="password" name="pass" class="password" placeholder="Senha" required>
-        </div>
-        <div class="remember">
-          <p class="lembrar" id="lembrar">Lembrar de mim</p>
-          <input type="radio" class="check">
-        </div>
-        <div class="btn-login">
-          <input type="button" value="Entrar" class="entrar" id="entrar">
-        </div>
-        <div class="preferences">
-          <p>Ou se preferir entre com:</p>
-        </div>
-        <div class="social-login">
-          <ion-icon name="logo-facebook"></ion-icon>
-          <ion-icon name="logo-google"></ion-icon>
-          <ion-icon name="logo-linkedin"></ion-icon>
-        </div>
+  <!-- Formulário -->
+  <form>
+  <div class="todosForm">
+    <p>Preencha o formulário para que possamos entrar em contato!</p>
+    <div class="formulario">
+      <label for="name">Nome</label>
+      <input type="text" name="name" placeholder="Digite seu nome" required>
     </div>
+    <div class="formulario">
+      <label for="email">E-mail</label>
+      <input type="email" name="email" placeholder="Digite seu e-mail" required>
     </div>
-  </section>
-  <!---->
+    <div class="formulario">
+      <label for="phone">Telefone</label>
+      <input type="text" name="phone" placeholder="Telefone para contato" required>
+    </div>
+    <div class="formulario">
+      <label for="interest">Interesse</label>
+      <select name="interest">
+        <option value="" disabled selected>Selecione</option>
+        <option value="empresarial">Empresarial</option>
+        <option value="pequenoPorte">Para pequenos comércios</option>
+        <option value="sitePessoal">Site Pessoal</option>
+        <option value="lojaVirtual">Loja Virtual</option>
+      </select>
+    </div>
+    <input type="submit" class="btn" value="Quero um site incrível!">
+  </div>
+  </form>
+  
+  <!-- Formulário -->
   <!-- Footer -->
   <footer class="footer-container">
     <div class="footer-div-um">

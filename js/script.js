@@ -1,11 +1,3 @@
-function btnOrcamento() {
-  const btnOrcamento = document.querySelector('.inicio-text button');
-  btnOrcamento.addEventListener('click', () => {
-    window.alert('Site em manuntenção.');
-  });
-  }
-btnOrcamento();
-
 function initDrpodownMenu() {
   const dropdownMenus = document.querySelectorAll('[data-dropdown]');
   dropdownMenus.forEach(menu => {
