@@ -11,6 +11,7 @@
 @import 'orcamento.css';
 @import 'cadastro.css';
 @import 'servicoPag.css';
+@import 'sobre.css';
 
 :root {
   --cor0: #ffffff;
