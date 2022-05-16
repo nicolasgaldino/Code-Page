@@ -26,6 +26,7 @@ form {
 
 .formulario-user {
   display: flex;
+  justify-content: center;
   gap: 10px;
   font-size: 1.3em;
   flex-wrap: wrap;
@@ -92,14 +93,11 @@ form {
 
   .todosForm {
     width: 365px;
+    flex-direction: column;
   }
 
   .todosForm p {
     font-size: 1.5em;
-  }
-
-  .formulario-user {
-    justify-content: center;
   }
 
   .formulario-endereco {

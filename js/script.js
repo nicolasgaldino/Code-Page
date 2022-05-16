@@ -37,9 +37,8 @@ function clickFora(element, events, callBack) {
 clickFora();
   
 function btnLigacao() {
-  const btnLigacao = document.querySelector('.contato button');
+  const btnLigacao = document.getElementById('btnLigacao');
   btnLigacao.addEventListener('click', () => {
     window.alert('Site em manuntenção.');
   });
-  }
-btnLigacao();
+}

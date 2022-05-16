@@ -33,6 +33,7 @@
         <div class="formulario-user">
           <input type="text" name="name" id="nome" placeholder="Nome" required>
           <input type="email" name="email" id="email" placeholder="E-mail" required>
+          <input type="password" name="email" id="senha" placeholder="Senha" required>
         </div>
         <div class="formulario-endereco">
           <input type="tel" name="cep" id="cep" placeholder="CEP" required>
@@ -81,6 +82,7 @@
     const clearFormCad = (endereco) => {
       document.getElementById('nome').value = '';
       document.getElementById('email').value = '';
+      document.getElementById('senha').value = '';
       document.getElementById('cep').value = '';
       document.getElementById('endereco').value = '';
       document.getElementById('bairro').value = '';
@@ -121,7 +123,8 @@
     userCep.addEventListener('focusout', pesquisaCep);
     const botao = document.getElementById('cadastro');
     function alertaCadastro() {
-      window.alert('Cadastro Realizado!')
+      const user = document.getElementById('nome').value;
+      window.alert(`Obrigado por se cadastrar, ${user}!`);
       clearFormCad();
     }
     botao.addEventListener('click', alertaCadastro);
