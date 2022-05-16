@@ -31,19 +31,19 @@
       <div class="todosForm">
         <p>Cadastro</p>
         <div class="formulario-user">
-          <input type="text" name="name" id="nome" placeholder="Nome" required>
-          <input type="email" name="email" id="email" placeholder="E-mail" required>
-          <input type="password" name="email" id="senha" placeholder="Senha" required>
+          <input type="text" name="name" id="nome" placeholder="Nome">
+          <input type="email" name="email" id="email" placeholder="E-mail">
+          <input type="password" name="email" id="senha" placeholder="Senha">
         </div>
         <div class="formulario-endereco">
-          <input type="tel" name="cep" id="cep" placeholder="CEP" required>
-          <input type="text" name="endereco" id="endereco" placeholder="Endereço" required>
-          <input type="tel" name="numero" id="numero" placeholder="Número" required>
+          <input type="tel" name="cep" id="cep" placeholder="CEP">
+          <input type="text" name="endereco" id="endereco" placeholder="Endereço">
+          <input type="tel" name="numero" id="numero" placeholder="Número">
         </div>
         <div class="formulario-endereco">
-          <input type="text" name="bairro" id="bairro" placeholder="Bairro" required>
-          <input type="tel" name="cidade" id="cidade" placeholder="Cidade" required>
-          <input type="tel" name="estado" id="estado" placeholder="Estado" required>
+          <input type="text" name="bairro" id="bairro" placeholder="Bairro">
+          <input type="tel" name="cidade" id="cidade" placeholder="Cidade">
+          <input type="tel" name="estado" id="estado" placeholder="Estado">
         </div>
         <input type="button" class="btn" id="cadstro" value="Cadastre-se" onclick="alertaCadastro()">
       </div>
@@ -123,9 +123,14 @@
     userCep.addEventListener('focusout', pesquisaCep);
     const botao = document.getElementById('cadastro');
     function alertaCadastro() {
-      const user = document.getElementById('nome').value;
-      window.alert(`Obrigado por se cadastrar, ${user}!`);
-      clearFormCad();
+      const nameU = document.getElementById('nome').value;
+      if(nameU === '') {
+        window.alert('Por favor, preencha os campos abaixo.')
+      } else {
+        const user = document.getElementById('nome').value;
+        window.alert(`Obrigado por se cadastrar, ${user}!`);
+        clearFormCad();
+      }
     }
     botao.addEventListener('click', alertaCadastro);
   </script>
