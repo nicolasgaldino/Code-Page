@@ -27,6 +27,7 @@
   </nav>
   <!-- Nav -->
 <h1 style="text-align: center;"> PÁGINA EM MANUTENÇÃO!</h1>
+<input type="button" value="Logout" id="btnLogout">
   <!-- Footer -->
   <footer class="footer-container">
     <div class="footer-div-um">
@@ -56,5 +57,17 @@
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <!-- Footer -->
 <script src="../js/script.js"></script>
+<script>
+  const btnLogout = document.getElementById('btnLogout');
+  function handleLogout() {
+    localStorage.removeItem('name');
+    localStorage.removeItem('email');
+    localStorage.removeItem('pass');
+    const url = 'login.html';
+    const win = window.open(url);
+  }
+  btnLogout.addEventListener('click', handleLogout);
+  handleLogout();
+</script>
 </body>
 </html>
