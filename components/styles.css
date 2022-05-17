@@ -12,6 +12,7 @@
 @import 'cadastro.css';
 @import 'servicoPag.css';
 @import 'sobre.css';
+@import 'pag-user.css';
 
 :root {
   --cor0: #ffffff;

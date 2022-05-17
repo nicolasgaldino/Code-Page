@@ -121,7 +121,6 @@
       }
     }
     userCep.addEventListener('focusout', pesquisaCep);
-    const botao = document.getElementById('cadastro');
     function alertaCadastro() {
       const nameU = document.getElementById('nome').value;
       if(nameU === '') {
@@ -129,10 +128,15 @@
       } else {
         const user = document.getElementById('nome').value;
         window.alert(`Obrigado por se cadastrar, ${user}!`);
+        const nomeUser = document.getElementById('nome').value;
+        const emailUser = document.getElementById('email').value;
+        const senhaUser = document.getElementById('senha').value;
+        localStorage.setItem('name', nomeUser.toLowerCase());
+        localStorage.setItem('email', emailUser);
+        localStorage.setItem('pass', senhaUser);
         clearFormCad();
       }
     }
-    botao.addEventListener('click', alertaCadastro);
   </script>
 </body>
 </html>
