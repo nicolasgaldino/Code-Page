@@ -13,6 +13,7 @@
 @import 'servicoPag.css';
 @import 'sobre.css';
 @import 'pag-user.css';
+@import 'pace-theme-minimal.css';
 
 :root {
   --cor0: #ffffff;
