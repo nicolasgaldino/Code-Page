@@ -85,13 +85,7 @@
   }
 
   .nossos-servicos-container img {
-    width: 720px;
-    text-align: center;
-    margin-top: 20px;
+    display: none;
   }
-
-}
-
-@media (max-width: 360px) {
 
 }
