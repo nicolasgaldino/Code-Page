@@ -1,5 +1,5 @@
 .contato-container {
-  padding: 50px;
+  padding: 3.125rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,30 +13,30 @@
 
 .contato h1 {
   font-size: 2.3em;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   cursor: default;
 }
 
 .contato input {
   border: none;
-  border-radius: 5px;
-  padding: 5px;
+  border-radius: 0.3125rem;
+  padding: 0.3125rem;
   font-size: 1.5em;
   font-weight: bold;
   cursor: pointer;
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
   background: var(--cor3);
-  width: 275px;
+  width: 17.1875rem;
 }
 
 .contato button {
   background: var(--cor2);
   color: var(--cor0);
   border: none;
-  width: 275px;
+  width: 17.1875rem;
   font-size: 1.5em;
-  padding: 5px 10px;
-  border-radius: 5px;
+  padding: 0.3125rem 0.625rem;
+  border-radius: 0.3125rem;
   cursor: pointer;
 }
 

@@ -1,5 +1,5 @@
 .footer-container {
-  padding: 100px;
+  padding: 6.25rem;
   display: flex;
   align-items: baseline;
   flex-wrap: wrap;
@@ -23,11 +23,11 @@ color: var(--cor2);
 }
 
 .footer-div-dois h1 {
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
 }
 
 .footer-div-tres h1 {
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
 }
 
 .footer-social-media a {
@@ -36,7 +36,7 @@ color: var(--cor2);
 }
 
 .footer-div-quatro h1 {
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
 }
 
 /* Mobile */
@@ -48,14 +48,14 @@ color: var(--cor2);
   }
 
   .footer-div-um {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   .footer-div-dois {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
 
   .footer-div-tres {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
 
 }

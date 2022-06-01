@@ -14,20 +14,20 @@ form {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 40px;
+  padding: 2.5rem;
   width: auto;
   gap: 2em;
 }
 
 .todosForm p {
   color: var(--cor0);
-  margin-bottom: -5px;
+  margin-bottom: -0.3125rem;
 }
 
 .formulario-user {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 0.625rem;
   font-size: 1.3em;
   flex-wrap: wrap;
 }
@@ -37,7 +37,7 @@ form {
   width: 300px;
   text-align: center;
   font-size: 0.9em;
-  padding: 5px 10px;
+  padding: 0.3125rem 0.625rem;
   font-weight: bold;
   border: none;
   border-radius: 5px;
@@ -72,9 +72,9 @@ form {
   text-align: center;
   font-size: 1.0em;
   letter-spacing: .1em;
-  padding: 10px;
-  border: 2px solid var(--cor0);
-  border-radius: 5px;
+  padding: 0.625rem;
+  border: 0.125rem solid var(--cor0);
+  border-radius: 0.3125rem;
   cursor: pointer;
   color: var(--cor0);
   background: var(--cor2);
@@ -83,7 +83,7 @@ form {
 .btn:hover {
   color: var(--cor2);
   background: var(--cor0);
-  border: 2px solid var(--cor2);
+  border: 0.125rem solid var(--cor2);
   font-weight: bold;
 }
 
@@ -92,7 +92,7 @@ form {
 @media (max-width: 720px) {
 
   .todosForm {
-    width: 365px;
+    width: 22.8125rem;
     flex-direction: column;
   }
 
@@ -113,7 +113,7 @@ form {
 @media (max-width: 360px) {
 
   .todosForm {
-    width: 275px;
+    width: 17.1875rem;
   }
 
   .todosForm p {
@@ -121,11 +121,11 @@ form {
   }
 
   .formulario-user {
-    width: 210px;
+    width: 13.125rem;
   }
 
   .formulario-endereco {
-    width: 210px;
+    width: 13.125rem;
   }
 
   .btn {

@@ -5,7 +5,7 @@
 }
 
 .servicos {
-  margin: 0px 350px;
+  margin: 0rem 21.875rem;
   text-align: center;
   padding: 2.5em;
 }
@@ -24,12 +24,12 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 
 .nossos-servicos-container img {
   width: auto;
-  height: 700px;
+  height: 43.75rem;
 }
 
 .servico-text {
@@ -48,8 +48,8 @@
 .item {
   flex-wrap: wrap;
   text-align: center;
-  padding: 20px;
-  width: 300px;
+  padding: 1.25rem;
+  width: 18.75rem;
 }
 
 .item ion-icon {
@@ -57,7 +57,7 @@
 }
 
 .item h2 {
-  margin: 20px;
+  margin: 1.25rem;
   text-transform: uppercase;
 }
 
@@ -70,7 +70,7 @@
 @media (max-width: 1570px) {
 
   .servicos {
-    margin: 0px;
+    margin: 0rem;
   }
 
   .servico-text {
@@ -80,8 +80,8 @@
 
   .nossos-servicos-container {
     justify-content: center;
-    margin: 0px;
-    padding: 5px;
+    margin: 0rem;
+    padding: 0.3125rem;
   }
 
   .nossos-servicos-container img {

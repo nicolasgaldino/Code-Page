@@ -1,7 +1,7 @@
 .nav-container {
   display: flex;
   flex-wrap: wrap;
-  border-bottom: .5px solid var(--cor4);
+  border-bottom: 0.0313rem solid var(--cor4);
   background: var(--cor0);
 }
 
@@ -29,7 +29,7 @@
 .ul-cont li {
   font-size: 1.5em;
   list-style: none;
-  margin: 0px 20px 0px 0px;
+  margin: 0rem 1.25rem 0rem 0rem;
 }
 
 .ul-cont li a {
@@ -42,8 +42,8 @@
   background: var(--cor2);
   font-size: 1.1em;
   border: none;
-  padding: 5px 10px;
-  border-radius: 5px;
+  padding: 0.3125rem 0.625rem;
+  border-radius: 0.3125rem;
   cursor: pointer;
 }
 
@@ -52,18 +52,18 @@
 @media (max-width: 720px) {
 
   .nav-container h1 {
-    margin-top: 5px;
+    margin-top: 0.3125rem;
   }
 
   .ul-cont li {
-    margin: 5px 5px 10px 5px;
+    margin: 0.3125rem 0.3125rem 0.625rem 0.3125rem;
     font-size: 1.3em;
     font-weight: bold;
   }
 
   [data-dropdown] .dropdown-menu {
     font-size: 1.3em;
-    width: 125px;
+    width: 7.8125rem;
   }
   
 }
@@ -76,7 +76,7 @@
 
   [data-dropdown] .dropdown-menu {
     font-size: .9em;
-    width: 85px;
+    width: 5.3125rem;
   }
   
 }

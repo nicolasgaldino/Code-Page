@@ -1,5 +1,5 @@
 .servico-container {
-  padding: 50px;
+  padding: 3.125rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -9,20 +9,20 @@
 
 .servico-container img {
   max-width: 100%;
-  width: 500px;
+  width: 31.25rem;
   height: auto;
 }
 
 .servico-itens {
   list-style: none;
   font-size: 2.1em;
-  margin: 5px;
+  margin: 0.3125rem;
   cursor: default;
   font-weight: bold;
 }
 
 .servico-itens ion-icon {
-  margin-right: 2px;
+  margin-right: 0.125rem;
   text-align: center;
   color: var(--cor2);
   font-size: .9em;
@@ -34,7 +34,7 @@
 
   .servico-container img {
     margin: 0%;
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
   }
 
   .servico-itens {
